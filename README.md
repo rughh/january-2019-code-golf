@@ -1,4 +1,4 @@
-# Welcome to the LRUG January Ruby Golf Competition!
+# Welcome to the Ruby Golf Competition!
 
 The idea in golf is to score as low as possible. In Ruby Golf, that means using as
 few characters as possible. There are a number of different challenges, or "holes"
