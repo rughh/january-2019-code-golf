@@ -85,7 +85,7 @@ module Minitest
     end
 
     def send_data
-      uri = URI(ENV['SCORE_URL'] || 'http://golf-scores.herokuapp.com/scores')
+      uri = URI(ENV['SCORE_URL'] || 'https://rughh-ruby-golf-scoreboard.herokuapp.com/scores')
 
       # Create client
       http = Net::HTTP.new(uri.host, uri.port)
