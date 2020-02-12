@@ -89,6 +89,7 @@ module Minitest
 
       # Create client
       http = Net::HTTP.new(uri.host, uri.port)
+      http.use_ssl = true
       post_data = {
         "score[name]" => @team_name
       }
