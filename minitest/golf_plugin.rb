@@ -29,7 +29,7 @@ module Minitest
 
       lines = File.readlines('golf.rb')
 
-      if File.exists?('.team-name')
+      if File.exist?('.team-name')
         @team_name = File.read('.team-name')
       else
         print "\n\nWelcome to Ruby Golf!\n\nBefore we run the tests, pick a name for your team: "
