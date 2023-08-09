@@ -79,9 +79,11 @@ module Minitest
         end
       end
 
-      print "Sending data to server... "; STDOUT.flush
-      send_data
-      puts " done."
+      if ENV['SEND_DATA'] == "true"
+        print "Sending data to server... "; STDOUT.flush
+        send_data 
+        puts " done."
+      end
     end
 
     def send_data
